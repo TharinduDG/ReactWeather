@@ -10,7 +10,19 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <h3>About Component</h3>
+    <div>
+      <h1 className="text-center">About</h1>
+      <p>This is an example react application, which I used for learning purposes.</p>
+      <p>Here are some of the tools I used:</p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react">React</a> - Javascript Framework
+        </li>
+        <li>
+          <a href="http://openweathermap.org">Open Weather Map</a> - Weather API to fetch weather data.
+        </li>
+      </ul>
+    </div>
   )
 }
 
